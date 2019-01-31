@@ -1,9 +1,6 @@
 <!DOCTYPE html>
 <html>
     <head>
-
-    	<title>entrants</title>
-
         <!-- Libraries -->
 
         <script type="text/javascript" src="https://d3js.org/d3.v5.min.js"></script>
@@ -27,15 +24,15 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
-        <title>Вибір місця навчання вступниками з міст та сіл </title>
+        <title>Вибір місця навчання вступниками з міст та сіл</title>
         
         <!--   meta info    -->
 
         <meta property="og:site_name" content="ТЕКСТИ.ORG.UA">
         <meta property="og:type" content="website">
         <meta property="og:title" content="Вдома краще?">
-        <meta property="og:description" content="Вибір місця навчання вступниками з міст та сіл">
-        <meta property="og:image" content="http://texty.org.ua/d/home/olena/mobility/publication/cover.png">
+        <meta property="og:description" content="Велике місто часто означає кращу якість освіти. Тому ми вирішили дослідити, куди їдуть навчатися абітурієнти з сіл та міст.">
+        <meta property="og:image" content="http://texty.org.ua/2019/student-migration/cover.jpg">
 
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,700,800&amp;subset=cyrillic" rel="stylesheet" rel="stylesheet" type="text/css">
 
@@ -50,21 +47,21 @@
 
 	            <div class="row" style="padding-left: 10px; padding-right: 20px;">
 	            	<!-- <div class="col-12">  -->  
-		                <div class="col-2 logo">
+		                <div class="col-2 logo" style="z-index: 100">
 		                         <a href="http://texty.org.ua/" target="_blank">
 		                            <img class='gif' src="img/logo_black.png"/>
 		                         </a>
 		                     </div>
 		                     <div class="col social-icons" style="padding-right: 20px;">
 		                         <div class="facebook socicon">
-		                             <a class="share-btn" href="https://www.facebook.com/sharer/sharer.php?u=http://texty.org.ua/">
+		                             <a class="share-btn" href="https://www.facebook.com/sharer/sharer.php?u=http://texty.org.ua/d/2019/student-migration/">
 		                                 <svg class="cover" id="facebook" viewBox="0 0 448 512" fill="#111523">
 		                                     <path d="M448 80v352c0 26.5-21.5 48-48 48h-85.3V302.8h60.6l8.7-67.6h-69.3V192c0-19.6 5.4-32.9 33.5-32.9H384V98.7c-6.2-.8-27.4-2.7-52.2-2.7-51.6 0-87 31.5-87 89.4v49.9H184v67.6h60.9V480H48c-26.5 0-48-21.5-48-48V80c0-26.5 21.5-48 48-48h352c26.5 0 48 21.5 48 48z"></path>
 		                                 </svg>
 		                             </a>
 		                         </div>
 		                         <div class="twitter socicon">
-		                             <a class="share-btn" href="https://twitter.com/intent/tweet?text=http://texty.org.ua/">
+		                             <a class="share-btn" href="https://twitter.com/intent/tweet?text=http://texty.org.ua/d/2019/student-migration/">
 		                                 <svg class="cover" id="twitter" viewBox="0 0 448 512" fill="#111523">
 		                                     <path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48zm-48.9 158.8c.2 2.8.2 5.7.2 8.5 0 86.7-66 186.6-186.6 186.6-37.2 0-71.7-10.8-100.7-29.4 5.3.6 10.4.8 15.8.8 30.7 0 58.9-10.4 81.4-28-28.8-.6-53-19.5-61.3-45.5 10.1 1.5 19.2 1.5 29.6-1.2-30-6.1-52.5-32.5-52.5-64.4v-.8c8.7 4.9 18.9 7.9 29.6 8.3a65.447 65.447 0 0 1-29.2-54.6c0-12.2 3.2-23.4 8.9-33.1 32.3 39.8 80.8 65.8 135.2 68.6-9.3-44.5 24-80.6 64-80.6 18.9 0 35.9 7.9 47.9 20.7 14.8-2.8 29-8.3 41.6-15.8-4.9 15.2-15.2 28-28.8 36.1 13.2-1.4 26-5.1 37.8-10.2-8.9 13.1-20.1 24.7-32.9 34z"></path>
 		                                 </svg>
@@ -93,7 +90,7 @@
                 <div class="row justify-content-center">
                     <div class='credits'>
                         <p>Проект створений інтернкою Оленою Нікуліною<br>на основі відкритих даних (<a href=https://zno.testportal.com.ua/opendata class="greylink">ЗНО</a> та  <a href=https://registry.edbo.gov.ua/opendata/ class="greylink">ЄДЕБО</a>)<br>Міністерства освіти і науки України</p>
-                        <p>Опубліковано: -- січня 2018 року</p>
+                        <p>Опубліковано: 24 січня 2019 року</p>
                     </div>
                 </div>
             </div>
@@ -656,37 +653,54 @@
             }
         </style>
 
-        <div id="button">
-            <h3>TEXTY.ORG.UA — незалежне видання без навʼязливої реклами й замовних матеріалів. Щоб працювати далі, нам потрібна ваша підтримка. </h3>
 
-            <div id="button-container">
-                <!--liqpay link-->
-                <button id="support-us" onclick="location.href='https://www.liqpay.ua/api/3/checkout?data=eyJ2ZXJzaW9uIjozLCJhY3Rpb24iOiJwYXlkb25hdGUiLCJwdWJsaWNfa2V5IjoiaTc2NjUwNTYyODI3IiwiYW1vdW50IjoiNTAiLCJjdXJyZW5jeSI6IlVBSCIsImRlc2NyaXB0aW9uIjoi0J%2FQvtC20LXRgNGC0LLQsCIsInR5cGUiOiJkb25hdGUiLCJsYW5ndWFnZSI6InVrIn0%3D&signature=YFkd4Z74QCJXRxMTPoWm0JVlkX4%3D'" type="button">ПОЖЕРТВУВАТИ</button>
-            </div>
-        </div>
+         <div class="container">
+             <div class="row justify-content-center">
+                 <div class="col-12 col-md-8"><img src="img/tapas.png"></div>
+                 <div class="col-12 col-md-8">
+                     <p>Матеріал підготовлено в рамках проекту «Прозорість та підзвітність у державному управлінні та послугах» / TAPAS</p>
+                     <p>TAPAS — це проект технічної допомоги, що фінансується Агентством США з міжнародного розвитку (USAID) та урядом Великої Британії через UK aid, спільно з українським урядом, місцевою владою та громадянами працює над удосконаленням системи публічних закупівель, електронних послуг та доступу до відкритих даних для зменшення корупції. Проект виконується Фондом «Євразія» у партнерстві з органами державної влади України та у співпраці з українськими та міжнародними організаціями.</p>
+                 </div>
+             </div>
+         </div>
 
-        <div class="container">
-            <div class="row">
-                <div class="col">
-                    <!-- Begin MailChimp Signup Form -->
-                    <link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
-                    <style type="text/css">
-                        #mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; width:100%;}
-                    </style>
-                    <div id="mc_embed_signup" style="margin-top: 50px; margin-bottom: 50px; background-color: rgba(0, 0, 0, 0);">
-                        <form action="//texty.us2.list-manage.com/subscribe/post?u=6a4d05e311e165b44ca8ccb21&amp;id=7eccc55fe8" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate="">
-                            <div id="mc_embed_signup_scroll">
-                                <label for="mce-EMAIL">Підпишіться на анонси наших наступних проектів (~два повідомлення на місяць)</label>
-                                <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="ваш email" required="">
-                                <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-                                <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_6a4d05e311e165b44ca8ccb21_7eccc55fe8" tabindex="-1" value=""></div>
-                                <div class="clear"><input type="submit" value="Додайте мене у список!" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
+         <div class="container">
+             <div class="row justify-content-center">
+                 <div class="col-12 col-md-8">
+                     <div id="button">
+                         <h3>TEXTY.ORG.UA — незалежне видання без навʼязливої реклами й замовних матеріалів. Щоб працювати далі, нам потрібна ваша підтримка. </h3>
+
+                         <div id="button-container">
+                             <!--liqpay link-->
+                             <button id="support-us" onclick="location.href='https://www.liqpay.ua/api/3/checkout?data=eyJ2ZXJzaW9uIjozLCJhY3Rpb24iOiJwYXlkb25hdGUiLCJwdWJsaWNfa2V5IjoiaTc2NjUwNTYyODI3IiwiYW1vdW50IjoiNTAiLCJjdXJyZW5jeSI6IlVBSCIsImRlc2NyaXB0aW9uIjoi0J%2FQvtC20LXRgNGC0LLQsCIsInR5cGUiOiJkb25hdGUiLCJsYW5ndWFnZSI6InVrIn0%3D&signature=YFkd4Z74QCJXRxMTPoWm0JVlkX4%3D'" type="button">ПОЖЕРТВУВАТИ</button>
+                         </div>
+                     </div>
+                 </div>
+             </div>
+         </div>
+
+         <div class="container">
+             <div class="row">
+                 <div class="col">
+                     <!-- Begin MailChimp Signup Form -->
+                     <link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
+                     <style type="text/css">
+                         #mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; width:100%;}
+                     </style>
+                     <div id="mc_embed_signup" style="margin-top: 50px; margin-bottom: 50px; background-color: rgba(0, 0, 0, 0);">
+                         <form action="//texty.us2.list-manage.com/subscribe/post?u=6a4d05e311e165b44ca8ccb21&amp;id=7eccc55fe8" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate="">
+                             <div id="mc_embed_signup_scroll">
+                                 <label for="mce-EMAIL">Підпишіться на анонси наших наступних проектів (~два повідомлення на місяць)</label>
+                                 <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="ваш email" required="">
+                                 <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                                 <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_6a4d05e311e165b44ca8ccb21_7eccc55fe8" tabindex="-1" value=""></div>
+                                 <div class="clear"><input type="submit" value="Додайте мене у список!" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+                             </div>
+                         </form>
+                     </div>
+                 </div>
+             </div>
+         </div>
 
 
         <!-- insert here zno article -->
@@ -884,6 +898,9 @@
             }
         );
         </script>
+
+
+    <script src="lib/share-behavior.js"></script>
 
     </body>
 </html>
